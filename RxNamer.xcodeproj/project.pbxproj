@@ -14,6 +14,7 @@
 		D3011448263845F000A12F72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3011446263845F000A12F72 /* Main.storyboard */; };
 		D301144A263845F200A12F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3011449263845F200A12F72 /* Assets.xcassets */; };
 		D301144D263845F200A12F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D301144B263845F200A12F72 /* LaunchScreen.storyboard */; };
+		D301145626385B7F00A12F72 /* AddNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D301145526385B7F00A12F72 /* AddNameVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D3011449263845F200A12F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D301144C263845F200A12F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D301144E263845F200A12F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D301145526385B7F00A12F72 /* AddNameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNameVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				D3011440263845F000A12F72 /* AppDelegate.swift */,
 				D3011442263845F000A12F72 /* SceneDelegate.swift */,
 				D3011444263845F000A12F72 /* ViewController.swift */,
+				D301145526385B7F00A12F72 /* AddNameVC.swift */,
 				D3011446263845F000A12F72 /* Main.storyboard */,
 				D3011449263845F200A12F72 /* Assets.xcassets */,
 				D301144B263845F200A12F72 /* LaunchScreen.storyboard */,
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3011445263845F000A12F72 /* ViewController.swift in Sources */,
+				D301145626385B7F00A12F72 /* AddNameVC.swift in Sources */,
 				D3011441263845F000A12F72 /* AppDelegate.swift in Sources */,
 				D3011443263845F000A12F72 /* SceneDelegate.swift in Sources */,
 			);
@@ -358,7 +362,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Z53N7RR56;
 				INFOPLIST_FILE = RxNamer/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,7 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Z53N7RR56;
 				INFOPLIST_FILE = RxNamer/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
